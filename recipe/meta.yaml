@@ -33,6 +33,7 @@ requirements:
   host:
     - freetype
     - fontconfig
+    - expat
     - glib
     - icu
     - libpng
@@ -60,6 +61,7 @@ test:
   requires:
     - glib  # needed for the pkg-config invocations below
     - pkg-config
+    - expat
 
   commands:
     # Check commands.
